@@ -5,11 +5,10 @@
 
 1. **Clone the repository**
    ```bash
-   git clone <your-github-link>
-   cd <your-repo-directory>
+   git clone https://github.com/anushkachaubey/Anushka-EA-Assignment3
+   pip install torch pyDOE torchdiffeq
    pip install -r requirements.txt
    jupyter notebook ea-assignment03.ipynb
-
 
 
 ## 📌 Question 1: Physics-Informed Neural Networks (PINNs)
@@ -63,8 +62,8 @@ A feedforward neural network (`FeedforwardNN`) was implemented with:
 ---
 
 ### 🖼️ Visualizations
-- Activation maps and contour plots show predicted scalar fields.
-- Demonstrates how each model aligns with physical ground truth.
+![image](https://github.com/user-attachments/assets/7509efae-27ac-4bf2-be9f-7da911cfdc18)
+
 
 ---
 
@@ -95,20 +94,18 @@ A feedforward neural network (`FeedforwardNN`) was implemented with:
 | Simple NN   | 0.9962         | 0.965         |
 | Neural ODE  | 1.0000         | 0.980         |
 
+![image](https://github.com/user-attachments/assets/94028d7f-4ed8-4877-bbf3-1f85d2fb95e2)
+
 ---
 
 ### 📍 Decision Boundary Visualization
-- Plotted decision boundaries using contour maps.
-- Neural ODE model shows smoother, more flexible boundary adaptation.
+![image](https://github.com/user-attachments/assets/aa2cbee4-6b10-4996-a7c5-4de063b07148) ![image](https://github.com/user-attachments/assets/bb827d43-a945-4005-a76b-ad880912ec21)
+
+
 
 ---
 
 ## 📎 Q2 Part C
-Plots and evaluation for Q2C are included at the end of the notebook.
+Plots and evaluation for Q2C are included in solutions_assignment3_anushkachaubey.pdf
 
 ---
-
-## 🧰 Requirements
-Make sure to install the following packages:
-```bash
-pip install torch numpy matplotlib torchdiffeq
